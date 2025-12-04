@@ -1,0 +1,15 @@
+[1;33mCleaning build directories...[0m
+[0;32m✓ Build directories cleaned[0m
+[0;32mBuilding Dolphin Emulator Flatpak...[0m
+[1;33mThis may take a while...[0m
+
+(flatpak-builder:19124): GLib-GIO-DEBUG: 07:56:38.349: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+** (flatpak-builder:19124): DEBUG: 07:56:38.349: Running: git config --get user.email
+(flatpak-builder:19124): GLib-DEBUG: 07:56:38.354: setenv()/putenv() are not thread-safe and should not be used after threads are created
+(flatpak-builder:19124): GLib-DEBUG: 07:56:38.354: setenv()/putenv() are not thread-safe and should not be used after threads are created
+** (flatpak-builder:19124): DEBUG: 07:56:38.354: Running: git config --get user.name
+(flatpak-builder:19124): GLib-DEBUG: 07:56:38.358: setenv()/putenv() are not thread-safe and should not be used after threads are created
+(flatpak-builder:19124): GLib-DEBUG: 07:56:38.358: setenv()/putenv() are not thread-safe and should not be used after threads are created
+** (flatpak-builder:19124): DEBUG: 07:56:38.360: Running: flatpak info --arch=x86_64 --show-commit org.kde.Sdk 6.8
+error: org.kde.Sdk/x86_64/6.8 not installed
+Failed to init: Unable to find sdk org.kde.Sdk version 6.8
